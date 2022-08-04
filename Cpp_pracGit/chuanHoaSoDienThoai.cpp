@@ -19,6 +19,11 @@ string standardizedPhoneNumber(string phoneNumber)
     }
     return res;
 }
+int sum(vector<int> a){
+    int s = 0;
+    for(int i = 0 ; i < a.size(); i++) s+= a[i];
+    return s;
+}
 int main()
 {
     int t;
