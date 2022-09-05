@@ -1,0 +1,58 @@
+h2{
+    text-align: center;
+    text-transform: uppercase;
+}
+.result .result-title{
+    text-align: center;
+    background-color: #111;
+    color: white;
+    text-transform: uppercase;
+}
+/* Option 1 */
+/* .parent{
+    display: grid;
+    grid-template-columns: auto auto auto; 
+}
+.child{
+    padding: 5px;
+    box-sizing: border-box;
+}
+.child img{
+       width: 100%;
+} */
+
+
+/* Option 2 */
+.parent{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.child{
+    flex-basis: 50%;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.child img{
+   width: 100%;
+}
+.child p{
+    margin-left: 50%;
+}
+.origin-size{
+    margin-top: 70px;
+    text-align: center;
+}
+.origin-size h4{
+    color: white;
+    border-style: solid;
+    background-color: #111;
+    text-transform: uppercase;
+}
+
+.origin-size .origin-imamge-title{
+    margin: 25px auto;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+
